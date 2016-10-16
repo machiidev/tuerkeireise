@@ -2,10 +2,10 @@
 <widget id="de.tuerkeireiseblog.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Türkeireise</name>
     <description>
-        A basic Framework7 template for PhoneGap.
+        Alle Informationen für deinen Türkeiurlaub
     </description>
     <author email="mach@dynamicwebsolutions.at" href="http://www.dynamicwebsolutions.at">
-        Apache Cordova Team
+       DWS GmbH
     </author>
     <content src="index.html" />
     <access origin="*" />
