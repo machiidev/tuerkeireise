@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="theme-red">
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
     <div class="statusbar-overlay"></div>
 
@@ -42,7 +42,46 @@
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal">
         <div class="content-block">
-            <p>Left panel content goes here</p>
+            <h3>Menü</h3>
+			
+			
+			<div class="list-block">
+         <ul>
+             <li id="settings">
+                 <div class="item-content">
+                     <div class="item-media"> <i class="icon fa fa-cog"></i></div>
+                     <div class="item-inner">
+                         <div class="item-title label">Settings</div>
+                     </div>
+                 </div>
+             </li>
+             <li id="favorites" >
+                 <div class="item-content">
+                     <div class="item-media"><i class="icon fa fa-star"></i></div>
+                     <div class="item-inner">
+                         <div class="item-title label">Favorites</div>
+                     </div>
+                 </div>
+             </li>
+             <li id="about">
+                 <div class="item-content">
+                     <div class="item-media"><i class="icon fa fa-info-circle"></i></div>
+                     <div class="item-inner">
+                         <div class="item-title label">About</div>
+                     </div>
+                 </div>
+             </li>
+			 <li id="blog">
+                 <div class="item-content">
+                     <div class="item-media"><i class="icon fa fa-info-circle"></i></div>
+                     <div class="item-inner">
+                         <div class="item-title label"><a href='http://www.tuerkeireiseblog.de' class="external">Blog</a></div>
+                     </div>
+                 </div>
+             </li>
+         </ul>
+     </div>
+			
         </div>
     </div>
 
@@ -71,7 +110,41 @@
                     <!-- Scrollable page content -->
                     <div class="page-content">
                         <div class="content-block">
-                            <p>Willkommen auf unserer Türkeireise-App</p>
+                            <h3>Willkommen auf Türkeireise-App</h3>
+							<div class="list-block accordion-list">
+							  <ul>
+								<li class="accordion-item"><a href="#" class="item-content item-link">
+									<div class="item-inner">
+									  <div class="item-title">Reiseinfomation</div>
+									</div></a>
+								  <div class="accordion-item-content">
+									<div class="content-block">
+									  <p>Item 1 content. Lorem ipsum dolor sit amet...</p>
+									</div>
+								  </div>
+								</li>
+								<li class="accordion-item"><a href="#" class="item-content item-link">
+									<div class="item-inner">
+									  <div class="item-title">Wichtige Adressen</div>
+									</div></a>
+								  <div class="accordion-item-content">
+									<div class="content-block">
+									  <p>Item 2 content. Lorem ipsum dolor sit amet...</p>
+									</div>
+								  </div>
+								</li>
+								<li class="accordion-item"><a href="#" class="item-content item-link">
+									<div class="item-inner">
+									  <div class="item-title">Telefonnummern</div>
+									</div></a>
+								  <div class="accordion-item-content">
+									<div class="content-block">
+									  <p>Item 2 content. Lorem ipsum dolor sit amet...</p>
+									</div>
+								  </div>
+								</li>
+							  </ul>
+							</div>
                             <!-- Link to another page -->
                             <a href="about.html">About app</a>
                         </div>

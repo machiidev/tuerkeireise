@@ -41,3 +41,17 @@ $$(document).on('pageInit', '.page[data-page="about"]', function (e) {
     // Following code will be executed for page with data-page attribute equal to "about"
     myApp.alert('Here comes About page');
 })
+
+
+// Left panel Menu
+$$(document).on('click', '#favorites', function (e) {
+     myApp.alert('Show my favorites');
+ });
+    
+ $$(document).on('click', '#about', function (e) {
+     myApp.alert('Show About');
+ });
+    
+ $$(document).on('click', '#settings', function (e) {
+     myApp.alert('Show Settings');
+ });
